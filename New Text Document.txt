@@ -1,0 +1,44 @@
+.all{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+
+}
+.photo1{
+
+flex-basis: 25%;
+
+
+
+}
+.photo2{
+    
+    flex-basis: 25%;
+    
+  
+   
+}
+.photo3{
+    
+    flex-basis: 25%;
+    
+   
+
+}
+img{
+    width: 100%;
+    height: 100%;
+    transition: 2s;
+}
+img:hover
+{
+    opacity: .5;
+    transform: scale(1.1);
+   
+
+}
